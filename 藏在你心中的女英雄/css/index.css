@@ -1,0 +1,38 @@
+body {
+    overflow: hidden;
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #a7c4af;
+}
+.container {
+    width: 361px;
+    height: 641px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.bg-img {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: auto;
+}
+.btn {
+    width: 80%;
+    height: 62px;
+    background-size: 138%;
+    background-repeat: no-repeat;
+    background-position: 50% 53%;
+    position: absolute;
+    left: 11%;
+}
+.btn1 {
+    background-image: url("../src/img/btn1.png");
+    top: 67%;
+}
+.btn2 {
+    background-image: url("../src/img/btn2.png");
+    top: 80.5%;
+}
