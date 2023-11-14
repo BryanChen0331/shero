@@ -16,12 +16,25 @@ body {
     display: flex;
     position: relative;
 }
-.background {
+#bg {
     max-width: 100%;
     max-height: 100%;
     margin: auto;
 }
 .btn {
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#start-btn {
+    width: 56%;
+    height: 165px;
+    background-image: url("../src/img/start-btn.png");
+    background-size: 180%;
+    background-position: 50% 46%;
+    left: 22%;
+    top: 55%
+}
+#btn1, #btn2 {
     width: 80%;
     height: 62px;
     background-size: 138%;
@@ -29,12 +42,13 @@ body {
     background-position: 50% 53%;
     position: absolute;
     left: 11%;
+    display: none;
 }
-.btn1 {
-    background-image: url("../src/img/btn1.png");
+#btn1 {
+    background-image: url("../src/img/q2-btn1.png");
     top: 67%;
 }
-.btn2 {
-    background-image: url("../src/img/btn2.png");
+#btn2 {
+    background-image: url("../src/img/q2-btn2.png");
     top: 80.5%;
 }
